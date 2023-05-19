@@ -22,11 +22,10 @@
                 <input type="email" name="email" placeholder="Enter your email">
             </div>
 
-            <div>
+            <div class="gendercontainer">
                 <label for="">Gender</label>
-                <input type="radio" name="gender">Male
-                <input type="radio" name="gender">Female
-                
+                <input class = "gender1" type="radio" name="gender">Male</input>
+                <input class = "gender1" type="radio" name="gender">Female </input>            
             </div>
 
             <div>
@@ -37,6 +36,10 @@
             <div>
                 <label for="">Password</label>
                 <input type="password" name="password" placeholder="Enter your password"/>
+            </div>
+
+            <div class="btn">
+                <button type="button">Submit data</button>
             </div>
         </form>
     </div>
