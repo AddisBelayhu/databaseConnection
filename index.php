@@ -11,7 +11,7 @@
     
     <h2>Registration Form</h2>
     <div class="container">
-        <form action="">
+        <form action="connection.php" method="post">
             <div>
                 <label for="">Name</label>
                 <input type="text" name="name" placeholder="Enter your name">
@@ -24,8 +24,8 @@
 
             <div class="gendercontainer">
                 <label for="">Gender</label>
-                <input class = "gender1" type="radio" name="gender">Male</input>
-                <input class = "gender1" type="radio" name="gender">Female </input>            
+                <input class = "gender1" type="radio" name="gender" value="m">Male</input>
+                <input class = "gender1" type="radio" name="gender" value="f">Female </input>            
             </div>
 
             <div>
