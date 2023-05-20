@@ -1,4 +1,5 @@
 <?php
+
 if($_SERVER['REQUEST_METHOD']=='POST'){
     $name=$_POST['name'];
     $email=$_POST['email'];
@@ -10,7 +11,7 @@ $con=new mysqli('localhost', 'root', '', 'form');
 
 if($con){
     //echo "connection successful";
-   $sql="insert into `data` (name,email,gender,mobile,password)vlaues('$name', '$email', '$gender', '$mobile', '$password')";
+   $sql="insert into `data` (name,email,gender,mobile,password)values('$name', '$email', '$gender', '$mobile', '$password')";
 
    $result=mysqli_query($con, $sql);
    if($result){
@@ -21,4 +22,5 @@ if($con){
 }
 
 }
+
 ?>
