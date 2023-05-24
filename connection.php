@@ -1,5 +1,7 @@
-<?php
 
+
+<?php
+//https://www.youtube.com/watch?v=F8Ke30Dqq0g
 if($_SERVER['REQUEST_METHOD']=='POST'){
     $name=$_POST['name'];
     $email=$_POST['email'];

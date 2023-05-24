@@ -24,6 +24,10 @@ input {
     font-size: 18px;
 }
 
+input:hover {
+    border:1.5px solid rgb(255, 89, 0);
+}
+
 ::placeholder{
     text-align: center;
 }
